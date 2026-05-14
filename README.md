@@ -19,15 +19,15 @@ please reach out to mareen.pigorsch@charite.de.
 This folder contains the following data and files that can be used to reproduce the analysis and figures of the manuscript.
 It contains three subfolders (Application, Results, Simulation) containing the following files:
 
-.\Application
+* **.\Application**
 A folder including the code as well as the results of the application (Table 3 and 4, Figure 4)
 
 	MCT_Count_Application.R
 	An R script including the function to execute the analyses for one data set and the code for the application, 
   creates Table 3 and 4 and Figure 4. 
 
-.\Results
-	\Results_Simulation_Excel
+* **.\Results**
+\Results_Simulation_Excel
 		MCT_Count_typeI_3groups.xlsx
 		An Excel file including the simulation results for the type-I error for 3 groups. 
 		
@@ -62,7 +62,7 @@ A folder including the code as well as the results of the application (Table 3 a
 	MCT_Count_Tables.R
 	An R script to create Table 1, 2, A1 and S5.
 
-.\Simulation\
+* **.\Simulation\**
 	MCT_Count_functions.R
 	An R script that contains all the functions used for the simulation study to compare different analysis strategies 
 	for count data in context of multiple contrast tests (for 3 and 4 groups).	
