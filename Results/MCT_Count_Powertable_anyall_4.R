@@ -1,4 +1,4 @@
-setwd("../2_results/Results_Simulation_Excel/")
+setwd("../Results/Results_Simulation_Excel/")
 
 pacman::p_load(ggplot2, writexl, readxl, dplyr, tidyr, purrr, janitor, 
                forcats, gridExtra, patchwork, cowplot, xtable)
