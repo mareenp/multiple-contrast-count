@@ -1,4 +1,4 @@
-setwd("../2_results/Results_Tables/")
+setwd("../Results/Results_Tables/")
 
 devtools::install_github("thomas-fung/mpcmp")
 pacman::p_load(dplyr, stringr, xtable, mpcmp)
