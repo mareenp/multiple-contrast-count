@@ -26,6 +26,12 @@ MCT_Count_Application.R  \
 An R script including the function to execute the analyses for one data set and the code for the application, 
 creates Table 3 and 4 and Figure 4. 
 
+MCT_Count_Application_function_boot.R \
+An R script including the function to execute solely the Nonparametric Bootstrap for an application data set, including option to use offsets and deciding between one-sided and two-sided tests.
+
+MCT_Count_Application_function_with_offset.R \
+An R script including the function to execute all methods examined for an application data set, update including option to use offsets.
+
 **.\Results** \
 \Results_Simulation_Excel \
 MCT_Count_typeI_3groups.xlsx \
