@@ -20,7 +20,7 @@ This folder contains the following data and files that can be used to reproduce 
 It contains three subfolders (Application, Results, Simulation) containing the following files:
 
 **.\Application** \
-A folder including the code as well as the results of the application (Table 3 and 4, Figure 4)
+A folder including code for application to reproduce application example and updated application code that allows to include offsets as well to choose between one-sided and two-sided tests. 
 
 MCT_Count_Application.R  \
 An R script including the function to execute the analyses for one data set and the code for the application, 
