@@ -43,6 +43,9 @@ An Excel file including the simulation results for the global power for 3 groups
 MCT_Count_power_4groups.xlsx \
 An Excel file including the simulation results for the global power for 4 groups. 
 
+MCT_Count_typeI_TIM-HF2.xlsx \
+An Excel file including the simulation results for the type-I error for 4 groups for simulation settings referring count outcome of TIM-HF2 trial. 
+
 \Results_Plots \
 A folder including .png-files with the plotted simulation results. 
 	
@@ -82,3 +85,6 @@ An R script that contains examples to check reproducibility without repeating th
 
 MCT_Count_sim_parallel_without_cluster.R \
 An R script that contains an alternative code calling the simulations for 4 groups without using a cluster computer but a parallelization with function future_lapply() instead of slurm_apply(), examplary for type-I error for 4 groups.
+
+MCT_Count_sim_TypeI_TIM-HF2.R \
+An R script that contains the function and simulation setup for type-I error regarding 4 groups for the count outcome referring to TIM-HF2. The simulation is conducted on the HPC cluster from the Berlin Institute of Health.	
