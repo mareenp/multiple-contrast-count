@@ -80,11 +80,11 @@ An R script that contains the simulation setup and calls the simulation function
 MCT_Count_sim_4groups_TypeI.R \
 An R script that contains the simulation setup and calls the simulation function for type-I error regarding 4 groups. 	The simulation is conducted on the HPC cluster from the Berlin Institute of Health after including the functions from 	MCT_Count_functions.R.		
 
+MCT_Count_sim_TypeI_TIM-HF2.R \
+An R script that contains the function and simulation setup for type-I error regarding 4 groups for the count outcome referring to TIM-HF2. The simulation is conducted on the HPC cluster from the Berlin Institute of Health.	
+
 MCT_Count_sim_example_reproduction.R \
 An R script that contains examples to check reproducibility without repeating the whole simulation study, one for a setting regarding type-I error and one for a setting regarding power.  
 
 MCT_Count_sim_parallel_without_cluster.R \
 An R script that contains an alternative code calling the simulations for 4 groups without using a cluster computer but a parallelization with function future_lapply() instead of slurm_apply(), examplary for type-I error for 4 groups.
-
-MCT_Count_sim_TypeI_TIM-HF2.R \
-An R script that contains the function and simulation setup for type-I error regarding 4 groups for the count outcome referring to TIM-HF2. The simulation is conducted on the HPC cluster from the Berlin Institute of Health.	
