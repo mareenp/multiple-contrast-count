@@ -64,6 +64,9 @@ An R script to create the figures for the simulation study regarding 3 groups, s
 MCT_Count_plot_4.R \
 An R script to create the figures for the simulation study regarding 4 groups, creates Figure 1-3 and A1-A5. 
 
+MCT_Count_plot_TIM-HF2.R \
+An R script to create the figure for the additional simulation study regarding the count outcome of TIM-HF2 trial.
+
 MCT_Count_Powertable_anyall_4.R \
 An R script to create the tabeles for the simulation study for any and all pairs power, creates Table S1-S4 in supplementary material. 
 
