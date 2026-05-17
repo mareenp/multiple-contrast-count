@@ -23,7 +23,7 @@ It contains three subfolders (Application, Results, Simulation) containing the f
 A folder including code for application to reproduce application example and updated application code incorporating offsets as well as the option to compute one-sided tests. 
 
 MCT_Count_Application.R  \
-An R script including the function to execute the analyses for one data set and the code for the application, 
+An R script including the function to execute the analyses for one data set and the code for the application used in the paper, 
 creates Table 3 and 4 and Figure 4. 
 
 MCT_Count_Application_function_boot.R \
